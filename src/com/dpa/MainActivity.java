@@ -1,6 +1,8 @@
-package com.apa;
+package com.dpa;
 
 import java.util.ArrayList;
+
+import com.apa.R;
 
 import android.app.Activity;
 import android.os.Bundle;
