@@ -39,4 +39,5 @@ or if you want the first result
     Person result = (Person)persister.select(Person.class).first();
     
 and whenever you wanted the specific instance by ID which is the primary key
+
     Person result = (Person)persister.select(Person.class).byID(1).first();

@@ -2,8 +2,6 @@ package com.dpa;
 
 import java.util.ArrayList;
 
-import com.apa.R;
-
 import android.app.Activity;
 import android.os.Bundle;
 import android.util.Log;
@@ -14,7 +12,7 @@ public class MainActivity extends Activity {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        Persister persister = new Persister(this,Person.class);
+        Persister persister = new Persister(getApplicationContext(),Person.class);
         Person per = new Person();
         per.name = "Test";
         per.age = 10;
